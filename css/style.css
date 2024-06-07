@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color pool */
+:root{
+    --color1: #B1B2FF;
+    --color2: #AAC4FF;
+    --color3: #D2DAFF;
+    --color4: #EEF1FF;
+}
+
+/* body */
+body {
+    background-color: #B1B2FF;
+    font-family: Abel,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Text Align */
+:is(h2) {
+    margin-top: .3rem;
+    text-align: center;
+}
+
+input{
+    min-width: 25dvw;
+
+}
+
+/* To do list container */
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Buttons style*/
+#tDButton {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 24px 15px 20px 10px;
+    margin: auto;
+}
